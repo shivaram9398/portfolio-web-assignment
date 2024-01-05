@@ -1,0 +1,224 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.page-container {
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  background-color: #f9faff;
+  max-width: 1440px;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('https://res.cloudinary.com/dbo3k0tzb/image/upload/v1704426739/image_syv9rh.png');
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+.header {
+  height: 56px;
+  padding: 12px 120px;
+  display: flex;
+  justify-content: space-between;
+}
+.user-name {
+  font-family: Comfortaa;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+}
+.nav-item {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #25282b;
+  text-decoration: none;
+}
+.intro-main-container {
+  height: calc(100vh - 56px);
+}
+.intro-container {
+  margin: 111px auto auto 120px;
+  width: 486px;
+  height: 406px;
+}
+.intro-heading {
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fdc435;
+}
+.intro-title {
+  font-family: Playfair Display;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+}
+.intro-subheadline {
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+}
+.buttons-container {
+  display: flex;
+  gap: 12px;
+}
+.project-button {
+  border: none;
+  outline: none;
+  width: 115px;
+  height: 43px;
+  padding: 8px 24px 8px 24px;
+  border-radius: 8px;
+  background-color: #fdc435;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #25282b;
+}
+.linkedin-button {
+  background-color: transparent;
+  width: 117px;
+  height: 43px;
+  padding: 8px 24px 8px 24px;
+  border-radius: 8px;
+  border: 2px solid #25282b;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #25282b;
+}
+.form-container {
+  height: 756px;
+  background-image: url('');
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+.form-container {
+  height: 100vh;
+}
+.add-project {
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #25282b;
+  margin-bottom: 0px;
+}
+.bar-line {
+  margin-top: 0px;
+  border: 2px solid #fdc435;
+  background-color: #fdc435;
+  width: 100px;
+  height: 4px;
+  border-radius: 2px;
+}
+.form-header {
+  height: 100%;
+}
+.input-box-container {
+  display: flex;
+  justify-content: center;
+}
+.input-box {
+  width: 400px;
+  height: 445px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.label-name {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #25282b;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.input {
+  border: 1px solid #e8ecf4;
+  border-radius: 8px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #9a9fa8;
+}
+.add-btn-container {
+  display: flex;
+  justify-content: end;
+}
+.add-button {
+  outline: none;
+  border: none;
+  width: 81px;
+  height: 43px;
+  padding: 8px 24px 8px 24px;
+  border-radius: 8px;
+  background-color: #fdc435;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #25282b;
+}
+
+.vector-card {
+  height: 120px;
+  background-image: url('https://res.cloudinary.com/dbo3k0tzb/image/upload/v1704427568/Vector_rrbql6.png');
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+
+.projects-container {
+  min-height: 100vh;
+}

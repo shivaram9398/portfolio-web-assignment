@@ -1,0 +1,68 @@
+.projects-container {
+  min-height: 100vh;
+}
+.project-card {
+  width: 992px;
+  height: 524px;
+  border-radius: 24px;
+  box-shadow: 0px 6px 64px 0px #7090b01a;
+}
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+.project-card {
+  width: 992px;
+  height: 524px;
+  border-radius: 24px;
+  display: flex;
+  background-color: #fff;
+}
+.project-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+}
+.project-name {
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #25282b;
+}
+.project-description {
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+}
+.project-image {
+  width: 50%;
+}
+.view-button {
+  width: fit-content;
+  height: 43px;
+  padding: 8px 24px 8px 24px;
+  border-radius: 24px;
+  background-color: #fff;
+  border: 1px solid #25282b;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #25282b;
+}
+
+.image1 {
+  border-radius: 0 24px 24px 0;
+}
